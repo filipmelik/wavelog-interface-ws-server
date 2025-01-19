@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  wl-ws-server:
+    container_name: wl-ws-server
+    restart: always
+    environment:
+      - DEBUG=1
+    build:
+      context: ./
+      dockerfile: Dockerfile-dev
+    ports:
+      - "7778:8000"
+    volumes:
+      - ./:/wl-server
