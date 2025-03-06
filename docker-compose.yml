@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   wl-ws-server:
     container_name: wl-ws-server

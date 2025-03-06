@@ -12,8 +12,11 @@ RUN pip install --no-cache-dir --upgrade pip \
   && pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
+RUN mkdir -p qrg_to_mode_tables
+COPY qrg_to_mode_tables qrg_to_mode_tables
 COPY server.py ./
 COPY run.py ./
+COPY mode_from_qrg_resolver.py ./
 
 # Command to run your application (if applicable)
 CMD ["python", "run.py"]
