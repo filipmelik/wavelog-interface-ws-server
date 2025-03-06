@@ -1,11 +1,10 @@
-version: '3'
-
 services:
   wl-ws-server:
     container_name: wl-ws-server
     restart: always
     environment:
       - DEBUG=1
+      - ADMIN_PASS=admin
     build:
       context: ./
       dockerfile: Dockerfile-dev
