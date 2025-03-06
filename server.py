@@ -22,7 +22,10 @@ app = FastAPI(middleware=middleware)
 
 @app.get("/cmd/{device_id}/qsy/{qrg}")
 async def trigger_qsy(device_id: str, qrg: int):
-    """GET endpoint, that will send QSY frequency to the connected websocket client"""
+    """
+    GET endpoint, that will send QSY frequency request to the connected
+    websocket client running in Wavelog hardware interface.
+    """
     client_socket = app.wss.get(device_id)
     if not client_socket:
         raise HTTPException(
@@ -30,13 +33,13 @@ async def trigger_qsy(device_id: str, qrg: int):
             detail=f"no device with id {device_id} is connected",
         )
     
-    response = {
-        "command": "qsy",
-        "params": {
-            "frequency": qrg,
-        }
-    }
     try:
+        response = {
+            "command": "qsy",
+            "params": {
+                "frequency": qrg,
+            }
+        }
         await client_socket.send_json(response)
     except Exception:
         raise HTTPException(
