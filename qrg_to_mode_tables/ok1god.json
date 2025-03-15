@@ -2,132 +2,132 @@
   {
     "freq_from": 1800000,
     "freq_to": 1825000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 1825000,
     "freq_to": 1840000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 1840000,
     "freq_to": 1890000,
-    "mode": "LSB"
+    "mode": "SSB_L"
   },
   {
     "freq_from": 3500000,
     "freq_to": 3570000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 3570000,
     "freq_to": 3600000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 3600000,
     "freq_to": 3800000,
-    "mode": "LSB"
+    "mode": "SSB_L"
   },
   {
     "freq_from": 7000000,
     "freq_to": 7040000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 7040000,
     "freq_to": 7050000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 7050000,
     "freq_to": 7200000,
-    "mode": "LSB"
+    "mode": "SSB_L"
   },
   {
     "freq_from": 10100000,
     "freq_to": 10300000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 10300000,
     "freq_to": 10500000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 14000000,
     "freq_to": 14070000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 14070000,
     "freq_to": 14101000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 14101000,
     "freq_to": 14350000,
-    "mode": "USB"
+    "mode": "SSB_U"
   },
   {
     "freq_from": 18068000,
     "freq_to": 18095000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 18095000,
     "freq_to": 18111000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 18111000,
     "freq_to": 18168000,
-    "mode": "USB"
+    "mode": "SSB_U"
   },
   {
     "freq_from": 21000000,
     "freq_to": 21070000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 21070000,
     "freq_to": 21151000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 21151000,
     "freq_to": 21450000,
-    "mode": "USB"
+    "mode": "SSB_U"
   },
   {
     "freq_from": 24890000,
     "freq_to": 24915000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 24915000,
     "freq_to": 24931000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 24931000,
     "freq_to": 24990000,
-    "mode": "USB"
+    "mode": "SSB_U"
   },
   {
     "freq_from": 28000000,
     "freq_to": 28070000,
-    "mode": "CW"
+    "mode": "CW_U"
   },
   {
     "freq_from": 28070000,
     "freq_to": 28225000,
-    "mode": "DATA"
+    "mode": "DIG_U"
   },
   {
     "freq_from": 28225000,
     "freq_to": 29000000,
-    "mode": "USB"
+    "mode": "SSB_U"
   },
   {
     "freq_from": 29000000,
